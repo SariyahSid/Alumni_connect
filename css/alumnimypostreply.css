@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	
+	color:white;
+}
+body::before{
+	content: " ";
+	background: rgb(5,0,36);
+  background: linear-gradient(90deg, rgba(5,0,36,0.9587185215883228) 0%, #c21e38 82%, rgba(95,4,152,1) 100%);
+	position: absolute;
+	height: 110%;
+	width: 100%;
+	z-index: -1;
+	opacity: 0.95;
+	top: 0px;
+	left: 0px;
+	bottom:0px;
+  
+  }
+  h3{
+	color:white;
+  }
+.ptb1
+{
+	width:550px;
+	border:2px solid;
+	border-color:#050119;
+	border-radius:5px;
+}
+.psp1
+{
+	font-size:20px;	color:white;
+}
+.psp2
+{
+	font-size:16px;color:white;
+}
+.psp3
+{
+	font-size:12px;	color:white;
+}
+.ptd1
+{
+	border-bottom:1px solid;
+	border-color:#050119;
+}
+.pp1
+{
+	color:white;
+	font-weight:bold;
+	font-size:30px;
+	font-style:oblique;
+	padding-left:200px;
+}
+.button
+{
+	border-radius:4px;
+	background-color: #008CBA; 
+	border: none;
+	color: white;
+	padding: 12px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	
+}
+button.bt1:hover
+{
+	background-color:#050119;
+	color:white;
+}
+
+
